@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- set viewport to device width to allow responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- link to custom stylesheet (always require after Bootstrap) -->
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <!-- jQuery from CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <!-- link to custom javascript file (always require after external JS libraries) -->
+
+    <title>Shark Bait!</title>
+  </head>
+  <body>
+<div class="contain">
+    <div class="menu">
+      <h1>SHARK BAIT</h1>
+      <button class="button" id="startGame">SWIM!</button>
+
+      <audio class="sound" autoplay loop controls>
+        <source src="score.mp3" type="audio/mpeg">
+      </audio>
+      <p> PRESS &#x2191; to move Diver </p>
+      <p> PRESS D to move Bouy </p>
+    </div>
+    <div class="player1win">
+      <h1>SHARKBAIT, HOO-HA-HA!</h1>
+      <button class="button restart">Restart</button>
+      <audio class="sound" id="soundOn" preload="auto">
+        <source src="WilhelmScream.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="player2win">
+      <h1>That was JAWSdropping!</h1>
+      <button class="button restart">Restart</button>
+      <audio class="sound" id="soundOff" preload="auto">
+        <source src="victory_trumpet.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</div>
+      <img class="shark" src="https://www.clker.com/cliparts/3/m/s/L/U/H/shark-md.png">
+      <img class="boat" src="http://clipartix.com/wp-content/uploads/2016/04/Sport-fishing-boat-clip-art-free-clipart-images-2-clipartcow.png">
+      <img class="diver" src="https://www.clker.com/cliparts/W/b/T/F/q/a/scuba-diver-md.png">
+      <img class="evilfriend" src="https://pre09.deviantart.net/3eb6/th/pre/i/2012/182/0/6/prtfolio__surfer_dude_by_kalii07-d55jr6i.png">
+      <img class="buoy" src="https://cdn.pixabay.com/photo/2012/04/02/17/29/lifebuoy-24990_960_720.png">
+  </body>
+
+</html>
